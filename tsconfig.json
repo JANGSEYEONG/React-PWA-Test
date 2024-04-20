@@ -10,6 +10,7 @@
     "paths": {
       "@/*": ["./src/*"]
     },
+    "allowJs": true,
     /* Bundler mode */
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
@@ -26,5 +27,5 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src", "src/custom.d.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{"path": "./tsconfig.node.json"}]
 }
